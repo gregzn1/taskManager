@@ -16,6 +16,8 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -33,6 +35,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// Enable authentication and authorization
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

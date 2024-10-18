@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\websites\\taskManager\\TaskManager\\TaskManager\\TaskManager.csproj": {}
+    "C:\\websites\\taskManager\\taskManager\\TaskManager\\TaskManager.csproj": {}
   },
   "projects": {
-    "C:\\websites\\taskManager\\TaskManager\\TaskManager\\TaskManager.csproj": {
+    "C:\\websites\\taskManager\\taskManager\\TaskManager\\TaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\websites\\taskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+        "projectUniqueName": "C:\\websites\\taskManager\\taskManager\\TaskManager\\TaskManager.csproj",
         "projectName": "TaskManager",
-        "projectPath": "C:\\websites\\taskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+        "projectPath": "C:\\websites\\taskManager\\taskManager\\TaskManager\\TaskManager.csproj",
         "packagesPath": "C:\\Users\\grego\\.nuget\\packages\\",
-        "outputPath": "C:\\websites\\taskManager\\TaskManager\\TaskManager\\obj\\",
+        "outputPath": "C:\\websites\\taskManager\\taskManager\\TaskManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,23 +52,25 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.10, )"
             }
           },
           "imports": [
